@@ -111,7 +111,6 @@ public class XMLRequests {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setNamespaceAware(true);
         DocumentBuilder builder;
-        Document doc = null;
         //String sdate = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
         try {
             // charger le fichier xml
